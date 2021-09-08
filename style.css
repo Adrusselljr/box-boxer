@@ -1,9 +1,41 @@
-div {
-  background-color: red;
-  width: 65px;
-  height: 65px;
-  border: 1px solid black;
-  margin-left: 10px;
-  background-clip: content-box;
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    /* outline: red dotted 1px; */
 }
 
+div {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin-left: 10px;
+    background-clip: content-box;
+  }
+
+#first {
+    padding: 10px;
+    margin-bottom: 75px;
+}
+
+#second {
+    width: 200px;
+    padding: 10px 65px 10px 65px;
+    margin-bottom: 10px;
+}
+
+#third {
+    width: 100px;
+    height: 100px;
+    padding: 15px 15px 35px 15px;
+    margin-bottom: 75px;
+}
+
+#fourth {
+    width: 300px;
+    height: 150px;
+    padding: 15px 60px 30px 100px;
+
+}
